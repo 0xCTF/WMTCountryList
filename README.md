@@ -15,14 +15,15 @@ Below are the different states of the application:
 - Indicates that the data is being fetched.
 - A progress bar is shown to inform the user.
 
-![Loading State](./images/loading.png)
+<img src="./images/loading.png" alt="Loading State" width="40%">
+
 
 ---
 
 ### ✅ **Success State**
 - The data is successfully fetched and displayed in the UI.
 
-![Success State](./images/app%20ui.png)
+<img src="./images/app%20ui.png" alt="App UI" width="40%">
 
 ---
 
@@ -30,12 +31,12 @@ Below are the different states of the application:
 - Occurs when the device has no internet connection.
 - Displays an error message prompting the user to check their connection.
 
-![Network Error](./images/network%20error.png)
-
+<img src="./images/network%20error.png" alt="Network Error" width="40%">
 ---
 
 ### 🔥 **Server Error**
 - Happens when the API returns an error response.
 - Displays an appropriate message to notify the user.
 
-![Server Error](./images/server%20error.png)
+<img src="./images/server%20error.png" alt="Server Error" width="40%">
+
