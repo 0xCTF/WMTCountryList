@@ -1,6 +1,6 @@
 # 🌍 WMTCountryList
 
-WMTCountryList is an Android application that fetches and displays country data using **MVVM architecture, Hilt for dependency injection, Retrofit for API calls, and Coroutines for async processing**.  
+WMTCountryList is an Android application that fetches and displays country data using **MVVM with Clean architecture, Hilt for dependency injection, Retrofit for API calls, and Coroutines for async processing**.  
 
 ## ✨ Features
 - Fetches country data from an API.
