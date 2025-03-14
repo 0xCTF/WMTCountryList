@@ -32,6 +32,7 @@ Below are the different states of the application:
 - Displays an error message prompting the user to check their connection.
 
 <img src="./images/network%20error.png" alt="Network Error" width="40%">
+
 ---
 
 ### 🔥 **Server Error**
