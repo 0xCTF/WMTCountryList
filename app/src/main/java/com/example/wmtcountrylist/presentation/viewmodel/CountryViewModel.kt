@@ -5,14 +5,11 @@ import androidx.lifecycle.viewModelScope
 import com.example.wmtcountrylist.data.Country
 import com.example.wmtcountrylist.domain.GetCountriesUseCase
 import com.example.wmtcountrylist.utils.ResultWrapper
-import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.launch
-import javax.inject.Inject
 
-@HiltViewModel
-class CountryViewModel @Inject constructor(
+class CountryViewModel(
     private val getCountriesUseCase: GetCountriesUseCase
 ) : ViewModel() {
 
